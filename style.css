@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #0f0f10;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0px 15vw;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.nav-right-section{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+.nav-list-item{
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-button{
+    font-size: 20px;
+    padding: 10px 40px;
+    background: #1e1e21;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.8); */
+}
+.nav-list-item:hover{
+    transform:scale(1.2);
+}
+.nav-button:hover{
+    transform:scale(0.95);
+}
+/* ----------------------------- */
+/* -------Main Section---------- */
+/* ----------------------------- */
+main{
+    display: flex;
+    gap: 60px;
+}
+.main-image{
+    top: -250px;
+    left: 40px;
+    position: relative;
+    background: transparent;
+}
+.main-right-section{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.on-ear-logo{
+    margin-left: 40px;
+    width: 350px;
+}
+.main-right-section h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+.main-right-section h3{
+    margin-bottom: 20px;
+}
+.main-description{
+    max-width: 350px;
+    color: #bdc0c2;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.addToBag-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #1e1e21;
+    border: none;
+    border-radius: 8px;
+}
+.addToBag-section p,.addToBag-section img,.addToBag-section span{
+    background: transparent;
+}
+/* --------------------------------------- */
+/* --------Social Media Section----------- */
+/* --------------------------------------- */
+.social-media-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -185px;
+    margin-bottom: 40px;
+}
+.social-media-section img:hover{
+    scale: 1.05;
+}
+/* -------------------------------------- */
+/* --------Specification Section--------- */
+/* -------------------------------------- */
+.specs-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -110px;
+}
+.specs-logo{
+    margin-bottom: 30px;
+}
+.specs-list{
+    display: flex;
+    gap: 30px;
+}
+.specs-list-items div:first-child,.specs-list-items div:last-child{
+    margin-left: 30px;
+}
+.specs-list-items div{
+    margin-bottom: 24px;
+}
+.specs-list-items div p:nth-child(2){
+    font-weight: 600;
+}
+.specs-list-items div p:last-child{
+    color: #bdc0c2;
+}
+.specsImage{
+    width: 100%;
+}
+/* ------------------------------ */
+/* -------Case Section----------- */
+/* ------------------------------ */
+.case-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.case-logo{
+    margin-bottom: 70px;
+}
+.case-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-left: 100px;
+}
+.case-item p{
+    max-width:18vw;
+    line-height: 26px;
+    color: #bdc0c2;
+    margin-bottom: 20px;
+}
+.case-item div button:last-child{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #1e1e21;
+    font-weight: 500;
+}
+.case-item img, .case-item span{
+    background: transparent;
+}
+/* -------------------------------------- */
+/* -------------Buy Product Section------ */
+/* -------------------------------------- */
+.buy-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #181a1b;
+    border-radius: 12px;
+    padding: 45px;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+.buy-product img{
+    background: transparent;
+}
+.buy-product-content , .buy-product-content h3 ,.buy-product-content p ,.buy-product-content button, .buy-product-content img, .buy-product-content span {
+    background: transparent;
+}
+.buy-product-content{
+    max-width: 25%;
+}
+.buy-product-content h3{
+    margin-bottom: 15px;
+    word-spacing: 4px;
+    font-size: 18px;
+}
+.buy-product-content p{
+    color: #bdc0c2;
+    margin-bottom: 15px;
+}
+.buy-product-content button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #000000;
+    font-weight: 500;
+}
+/* ------------------------------ */
+/* -------Product List Section----- */
+/* -------------------------------- */
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.product-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.product-logo{
+    margin-bottom: 60px;
+}
+.product-card{
+    background: #181a1b;
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+}
+.product-card img:first-child, .product-card p, .product-card div{
+    background: transparent;
+}
+.product-card img:first-child{
+    width: 90px;
+    /* height: 100px; */
+    position: relative;
+    top: -40px;
+    left: 40px;
+}
+.product-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    bottom: 30px;
+}
+img[alt="Bag Logo"]{
+    background: #000000;
+    padding: 7px;
+    border-radius: 8px;
+}
+/* ------------------------------- */
+/* ----------FOOTER--------------- */
+/* ------------------------------- */
+footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #BDC0C2;
+    line-height: 25px;
+}
+footer ul li:first-child{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-subscribe{
+    display: flex;
+    flex-direction: column;
+}
+.footer-subscribe input{
+    background: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.footer-subscribe div:first-child{
+    display: flex;
+    background: #181A1B;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.subscribe-button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #0A0A0B;
+    padding: 7px 14px;
+    border-radius: 8px;
+}
+.subscribe-button p, .subscribe-button img{
+    background: transparent;
+}
+.footer-subscribe div:last-child{
+    display: flex;
+    gap: 15px;
+}
+.footer-up-arrow{
+    position: absolute;
+    right: 10px;
+}
